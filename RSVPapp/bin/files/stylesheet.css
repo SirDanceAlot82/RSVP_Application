@@ -1,0 +1,45 @@
+/* stylesheet.css */
+.root
+{
+    -fx-font-size: 12.0pt;
+    -fx-font-family: Tahoma;
+    -fx-background-color: #FFFFFF;
+}
+
+.label
+{
+    /* -fx-text-fill: red; */
+}
+ 
+#center-word
+{
+   -fx-text-fill: black; /* kan ersätta black med en hexadecimal färgkod, ex #hghghg*/
+   -fx-font-size: 18.0pt;
+   -fx-font-weight: bold; /* normal, italic funkade ej */
+}
+
+.edge-words 
+{
+    -fx-text-fill: gray;
+    -fx-font-size: 16.0pt; /* px instead of pt works as well */
+}
+
+.button /* Stylar alla knappar */ 
+{
+    -fx-background-color: #f2f2f2;
+}
+
+.button:hover 
+{
+    -fx-background-color: #DCDCDC; /* två nyanser starkare än cda5f3 */
+}
+
+.button:pressed 
+{
+   -fx-background-color: #f2f2f2; /* brukar alltid ta samma, men det e ju valfritt :P */
+}
+
+.bold-text 
+{
+	  -fx-font-weight: bold; 
+}
